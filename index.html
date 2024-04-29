@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h1>Introduction to TypeScript</h1>
+					<p>TypeScript is a superset of JavaScript that adds optional static typing to the language. It was developed and is maintained by Microsoft to enhance the development of complex, large-scale applications. TypeScript provides a more robust and scalable codebase, improving code maintainability and developer productivity.</p>
+				</section>
+				<section>
+					<h2>Why TypeScript?</h2>
+					<section>
+						<h3>Static Typing</h3>
+						<p>TypeScript's static typing catches errors at compile-time, leading to more reliable and predictable code.</p>
+					</section>
+					<section>
+						<h3>Code Tooling</h3>
+						<p>TypeScript's tooling, such as IntelliSense and code refactoring, enhances developer productivity and code quality.</p>
+					</section>
+					<section>
+						<h3>Cross-Platform</h3>
+						<p>TypeScript compiles to plain JavaScript, allowing it to run on any platform that supports JavaScript.</p>
+					</section>
+					<section>
+						<h3>Scalability</h3>
+						<p>TypeScript's features, like interfaces and classes, make it easier to manage large-scale codebases.</p>
+					</section>
+					<section>Vertical 1</section>
+				</section>
+				<section>
+				<h2>TypeScript Fundamentals</h2>
+				<section>
+				<h4>Variables and Types</h4>	
+				<p>TypeScript introduces static types, such as number, string, and boolean, to declare and work with variables.</p>
+				</section>
+				<section>
+					<h4>Functions and Interfaces</h4>	
+					<p>TypeScript allows you to define strongly-typed functions and interfaces to ensure type-safety.</p>
+					</section>
+					<section>
+						<h4>Classes and Inheritance</h4>	
+						<p>TypeScript's object-oriented features, like classes and inheritance, enable modular and scalable code.</p>
+						</section>
+				</section>
+				<section>
+					<h3>TypeScript Data Types</h3>
+					<section>
+						<h4>Primitive Types</h4>	
+						<p>TypeScript supports the same primitive data types as JavaScript, including number, string, boolean, and null/undefined.</p>
+					</section>
+					<section>
+						<h4>Complex Types</h4>	
+						<p>TypeScript offers advanced data types, such as arrays, tuples, and objects, to represent complex data structures.</p>
+					</section>
+					<section>
+						<h4>Union and Intersection Types</h4>	
+						<p>TypeScript's union and intersection types allow for more flexible and expressive type declarations.</p>
+					</section>
+					<section>
+						<h4>Type Aliases</h4>	
+						<p>TypeScript's type aliases enable developers to create custom, reusable data types.</p>
+					</section>
+				</section>
+				<section>
+					<h2>TypeScript Functions</h2>
+					<section>
+						<h4>Function Declarations</h4>
+						<p>TypeScript allows you to define strongly-typed function declarations with parameters and return types.</p>
+					</section>
+					<section>
+						<h4>Arrow Functions</h4>
+						<p>TypeScript supports the use of arrow functions, which provide a more concise syntax for defining functions.</p>
+					</section>
+					<section>
+						<h4>Optional and Default Parameters</h4>
+						<p>TypeScript functions can have optional and default parameters, providing more flexibility in function calls.</p>
+					</section>
+				</section>
+				<section>
+					<h2>TypeScript Classes and Interfaces</h2>
+					<section>
+						<h4>Classes</h4>
+						<p>TypeScript's classes provide a familiar object-oriented programming (OOP) model, with features like inheritance and access modifiers.</p>
+					</section>
+					<section>
+						<h4>Interfaces</h4>
+						<p>Interfaces in TypeScript define the shape of an object, ensuring type-safety and maintainability.</p>
+					</section>
+					<section>
+						<h4>Abstraction</h4>
+						<p>TypeScript's abstract classes and interfaces enable developers to create reusable, modular, and extensible code.</p>
+					</section>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+		</script>
+	</body>
+</html>
